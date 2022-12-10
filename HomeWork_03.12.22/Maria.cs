@@ -10,7 +10,7 @@ namespace Homework
     internal class Maria : Person2
     {
         /// <summary>
-        /// Событие - вышел новый сериал
+        /// Событие - вышел новый сезон осд
         /// </summary>
         internal event EventHandler MovieCameOut;
 

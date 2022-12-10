@@ -34,9 +34,7 @@ namespace Homework
         /// <summary>
         /// Запись всей информации о мероприятии в заранее созданный файл
         /// </summary>
-        /// <param name="event"></param>
-        /// <param name="groups_event"></param>
-        /// <param name="event_participants"></param>
+        
         internal void WriteEventFile(Event @event, List<string> groups_event, Dictionary<string, List<Person1>> event_participants)
         {
             StreamWriter event_file = new StreamWriter(@"C:\\Users\\farra\\source\\repos\\HomeWork_03.12.22\\HomeWork_03.12.22\\events_first_task.txt");
